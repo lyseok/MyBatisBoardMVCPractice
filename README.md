@@ -1,10 +1,10 @@
 # MyBatis Board MVC Practice
 
-## 개요
+## ✨ 개요
 
 이 프로젝트는 **MyBatis**를 활용하여 **MVC 패턴**을 연습하기 위한 콘솔 기반 게시판 애플리케이션입니다. 사용자는 게시글을 **작성, 조회, 수정, 삭제, 검색**할 수 있습니다.
 
-## 사용 기술
+## ✨ 사용 기술
 
 - **Java (JDK 8 이상)**: 프로젝트의 기본 언어
 - **MyBatis**: SQL 매퍼 프레임워크로 DB 연동 처리
@@ -14,7 +14,7 @@
 - **Singleton 패턴**: Service 및 DAO 클래스의 인스턴스 관리
 - **XML 기반 MyBatis 설정**: `mybatis-config.xml`, `board-mapper.xml` 활용
 
-## 프로젝트 구조
+## ✨ 프로젝트 구조
 
 ```
 src/
@@ -30,7 +30,7 @@ resources/
 ├── mybatis/mappers/board-mapper.xml        // SQL 쿼리 매핑 파
 ```
 
-## 주요 기능
+## ✨ 주요 기능
 
 1. **게시글 작성**
     - 제목, 작성자, 내용 입력 후 DB에 저장
@@ -59,7 +59,7 @@ resources/
     ```
     
 
-## 데이터베이스 테이블 (예제)
+## ✨ 데이터베이스 테이블 (예제)
 
 ```sql
 CREATE TABLE JDBC_BOARD (
@@ -72,6 +72,3 @@ CREATE TABLE JDBC_BOARD (
 );
 ```
 
-## 참고
-
-이 프로젝트는 **Java + MyBatis 기반의 CRUD 연습 프로젝트**입니다. 향후 확장하여 **Spring Framework**, **JSP/Servlet** 또는 **웹 애플리케이션** 형태로도 발전시킬 수 있습니다.
